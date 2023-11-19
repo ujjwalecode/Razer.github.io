@@ -1,0 +1,939 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Mulish:ital,wght@0,200;0,500;0,700;1,400&family=Orbitron:wght@500&family=Roboto:wght@400;500&family=Syne:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #222;
+}
+header{
+    background-color: black;
+}
+header .header{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 0px 351.5px;
+    padding: 20px 30px 0px 60px;
+    background-color: black;
+}
+.header a{
+    color: #888;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+.header a:hover{
+    color: #fff;
+    
+}
+.header .material-symbols-outlined{
+    padding-bottom: 20px;
+}
+.header span{
+    color: #999;
+}
+.notification{
+    background-color: #555;
+    border-top: #44D62C solid 1px;
+
+}
+.notification a{
+    color: #fff;
+    text-decoration: none;
+}
+.notification a:hover{
+    
+    text-decoration: underline;
+}
+.notification span {
+    color: #fff;
+    
+
+}
+.notification p{
+    color: #fff;
+    font-size: 14px;
+    margin: 0px 481.64px;
+    padding-bottom: 11.5px;
+    padding-top: 3.5px;
+    text-align: center;
+    
+    
+    
+
+}
+.container1{
+    background-image: url(Images/holiday-gift-guide-2023-homepage-large-2x.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    
+   
+  
+}
+
+.container1 .text{
+    display: flex ;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    color: #fff;
+   
+}
+    
+.container1 .text h1{
+    font-size: 50px;
+    padding-top: 40px;
+    font-weight: 200;
+}
+.container1 .text p{
+    padding-top: 15px;
+    font-size: 28px;
+    font-weight: 100;
+}
+.container1 .text a{
+    padding-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 21px;
+        
+}
+.container1 .text a .material-symbols-outlined{
+    padding-top: px;
+    color: #44D62C;
+}
+
+.container1 .text a:hover{
+    
+    text-decoration: underline;
+    
+}
+
+
+
+.container2{
+    background-image: url(Images/razer-immersive-campaign-homepage-desktop2x.webp);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    background-position: center;
+   
+  
+}
+
+.container2 .text{
+    display: flex ;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    color: #fff;
+   
+}
+    
+.container2 .text h1{
+    font-size: 50px;
+    padding-top: 40px;
+    font-weight: 200;
+}
+.container2 .text p{
+    padding-top: 15px;
+    font-size: 28px;
+    font-weight: 100;
+}
+.container2 .text a{
+    padding-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 21px;
+        
+}
+.container2 .text a .material-symbols-outlined{
+    padding-top: px;
+    color: #44D62C;
+}
+
+.container2 .text a:hover{
+    
+    text-decoration: underline;
+    
+}
+
+
+
+.container3{
+    background-image: url(Images/razer-blade16-lamborghini-homepage-desktop2x.webp);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    background-position: center;
+   
+  
+}
+
+.container3 .text{
+    display: flex ;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    color: #fff;
+   
+}
+    
+.container3 .text h1{
+    font-size: 50px;
+    padding-top: 40px;
+    font-weight: 200;
+}
+.container3 .text p{
+    padding-top: 15px;
+    font-size: 28px;
+    font-weight: 100;
+}
+.container3 .text a{
+    padding-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 21px;
+        
+}
+.container3 .text a .material-symbols-outlined{
+    padding-top: px;
+    color: #44D62C;
+}
+
+.container3 .text a:hover{
+    
+    text-decoration: underline;
+    
+}
+
+
+
+
+.main{
+   display: grid;
+   
+   gap: 10px;
+   background-color: #222;
+   padding-top: 10px;
+}  
+  /* .main{
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    gap: 10px;
+    background-color: #222;
+    padding-top: 10px;
+ }    */
+.main .text{
+    height: 570px;
+    background-position: center;
+    background-image: url(Images/fujin-pro-b-950x580-desktop.webp);
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    width: auto;
+}
+.main .text h1{
+    padding-top: 5px;
+    font-size: 40px;
+    font-weight: 300
+
+
+}
+.main .text p{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+
+
+}
+.main .text a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+.main .text a:hover{
+    text-decoration: underline;
+}
+.main .text a .material-symbols-outlined{
+    padding-top: px;
+    color: #44D62C;
+    
+}
+
+
+.main .text2{
+    height: 570px;
+    background-image: url(Images/mercury-blade16-blade18-b-950x580-desktop.webp);
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+}
+.main .text2 h1{
+    padding-top: 5px;
+    font-size: 40px;
+    font-weight: 300
+
+
+}
+.main .text2 p{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+
+
+}
+.main .text2 a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+.main .text2 a:hover{
+    text-decoration: underline;
+}
+.main .text2 a .material-symbols-outlined{
+    padding-top: px;
+    color: #44D62C;
+    
+}
+
+
+
+
+.main .text3{
+    height: 570px;
+    background-image: url(Images/razer-blade-14-2023-b-950x580-desktop.webp);
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+}
+.main .text3 h1{
+    padding-top: 5px;
+    font-size: 40px;
+    font-weight: 300
+
+
+}
+.main .text3 p{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+
+
+}
+.main .text3 a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+.main .text3 a:hover{
+    text-decoration: underline;
+}
+.main .text3 a .material-symbols-outlined{
+    padding-top: px;
+    color: #44D62C;
+    
+}
+
+
+
+
+.main .text4{
+    height: 570px;
+    background-image: url(Images/razer-hyperpolling-technology-b-950x580-desktop.webp);
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+}
+.main .text4 h1{
+    padding-top: 5px;
+    font-size: 40px;
+    font-weight: 300
+
+
+}
+.main .text4 p{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+
+
+}
+.main .text4 a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+.main .text4 a:hover{
+    text-decoration: underline;
+}
+.main .text4 a .material-symbols-outlined{
+    padding-top: px;
+    color: #44D62C;
+    
+}
+
+
+.main .text5{
+    height: 570px;
+    background-image: url(Images/axon-ashoka-950x580-desktop.webp);
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+}
+.main .text5 h1{
+    padding-top: 5px;
+    font-size: 40px;
+    font-weight: 300
+
+
+}
+.main .text5 p{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+
+
+}
+.main .text5 a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+.main .text5 a:hover{
+    text-decoration: underline;
+}
+.main .text5 a .material-symbols-outlined{
+    padding-top: px;
+    color: #44D62C;
+    
+}
+
+
+
+
+
+.main .text6{
+    height: 570px;
+    background-image: url(Images/ebonus-card-b-950x580-desktop.webp);
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+}
+.main .text6 h1{
+    padding-top: 5px;
+    font-size: 40px;
+    font-weight: 300
+
+
+}
+.main .text6 p{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+
+
+}
+.main .text6 a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+.main .text6 a:hover{
+    text-decoration: underline;
+}
+.main .text6 a .material-symbols-outlined{
+    padding-top: px;
+    color: #44D62C;
+    
+}
+
+
+.component{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    
+    
+    padding-top: 10px;
+  
+    
+}
+
+.component .shop a{
+    display: flex;
+    padding: 0px 0px 12px;
+    text-decoration: none;
+    color: #999;
+   
+} 
+
+.component .explore a{
+    display: flex;
+    padding: 0px 0px 12px;
+    text-decoration: none;
+    color: #999;
+    
+}  
+.component .support a{
+    display: flex;
+    padding: 0px 0px 12px;
+    text-decoration: none;
+    color: #999;
+    
+}  
+.component .company a{
+    display: flex;
+    padding: 0px 0px 12px;
+    text-decoration: none;
+    color: #999;
+    
+} 
+.component .follow a{
+    display: flex;
+    padding: 0px 0px 12px;
+    text-decoration: none;
+    color: #999;
+
+
+}
+.component .gamers a{
+    display: flex;
+    padding: 0px 0px 12px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+.component .shop{
+    width: auto;
+    min-width: auto;
+    height: 270px;
+    padding: 0px 12px;
+} 
+.component .explore{
+    width: auto;
+    min-width: 179px;
+    height: 270px;
+    padding: 0px 12px;
+} 
+.component .support{
+    width: auto;
+    min-width: 179px;
+    height: 270px;
+    padding: 0px 12px;
+} 
+.component .company{
+    width: auto;
+    min-width: 179px;
+    height: 270px;
+    padding: 0px 12px;
+} 
+.component .follow{
+    width: auto;
+    min-width: 179px;
+    height: 270px;
+    padding: 0px 12px;
+} 
+.component .gamers{
+    width: auto;
+    min-width: 179px;
+    height: 270px;
+    padding: 0px 12px;
+} 
+
+.component .shop h4,p{
+    font-size: 12px;
+   
+} 
+.component .explore h4,p{
+    font-size: 12px;
+   
+} 
+.component .support h4,p{
+    font-size: 12px;
+    
+} 
+.component .company h4,p{
+    font-size: 12px;
+   
+} 
+.component .follow h4,p{
+    font-size: 12px;
+   
+} 
+.component .gamers h4,p{
+    font-size: 12px;
+   
+}
+
+
+
+
+
+
+
+.component .shop h4{
+    color: #fff;
+    padding: 0px 0px 12px;
+   
+} 
+.component .explore h4{
+    color: #fff;
+    padding: 0px 0px 12px;
+   
+} 
+.component .support h4{
+    color: #fff;
+    padding: 0px 0px 12px;
+    
+} 
+.component .company h4{
+    color: #fff;
+    padding: 0px 0px 12px;
+   
+} 
+.component .follow h4{
+    color: #fff;
+    padding: 0px 0px 12px;
+   
+} 
+
+
+
+
+
+.component .shop a:hover{
+    
+    text-decoration: underline;
+    color: #fff;
+   
+} 
+
+.component .explore a:hover{
+    text-decoration: underline;
+    color: #fff;
+    
+}  
+.component .support a:hover{
+    text-decoration: underline;
+    color: #fff;
+    
+}  
+.component .company a:hover{
+    text-decoration: underline;
+    color: #fff;
+    
+} 
+.component .follow a:hover{
+    text-decoration: underline;
+    color: #fff; 
+
+
+}
+
+
+
+    
+   
+ 
+    
+
+ 
+
+@media screen and (max-width: 600px) {
+   
+    .notification p{
+        color: #fff;
+        font-size: 12px;
+        margin: 0px auto;
+        padding-bottom: 11.5px;
+        padding-top: 3.5px;
+        text-align: center;
+        
+        
+        
+    
+    }
+    header .header{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        margin: auto;
+        background-color: black;
+    }
+   
+    .header a{
+        color: #888;
+        text-decoration: none;
+        padding-bottom: 20px;
+        display: none;
+    }
+
+    .container1 .text h1{
+        font-size: 10px;
+        padding-top: 40px;
+        font-weight: 200;
+        text-align: center;
+    }
+    .container1 .text p{
+        padding-top: 15px;
+        font-size: 20px;
+        font-weight: 100;
+        text-align: center;
+    }
+    .container1 .text a{
+        padding-top: 20px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        text-align: center;
+       
+            
+    }
+    .container1{
+        background-image: url(Images/holiday-gift-guide-2023-small-2x.webp);
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+        background-position: center;
+        
+       
+      
+    }
+    .container2 .text h1{
+        font-size: 10px;
+        padding-top: 40px;
+        font-weight: 200;
+        text-align: center;
+    }
+    .container2 .text p{
+        padding-top: 15px;
+        font-size: 20px;
+        font-weight: 100;
+        text-align: center;
+    }
+    .container2 .text a{
+        padding-top: 20px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        text-align: center;
+       
+            
+    }
+    .container2{
+        background-image: url(Images/razer-immersive-campaign-homepage-mobile2x.webp);
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+        background-position: center;
+        
+       
+      
+    }
+
+    .container3 .text h1{
+        font-size: 10px;
+        padding-top: 40px;
+        font-weight: 200;
+        text-align: center;
+    }
+    .container3 .text p{
+        padding-top: 15px;
+        font-size: 20px;
+        font-weight: 100;
+        text-align: center;
+    }
+    .container3 .text a{
+        padding-top: 20px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        text-align: center;
+       
+            
+    }
+    .container3{
+        background-image: url(Images/razer-blade16-lamborghini-homepage-mobile2x.webp);
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+        background-position: center;
+        
+       
+      
+    }
+
+    .main{
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        gap: 10px;
+        background-color: #222;
+        padding-top: 10px;
+      
+        
+        /* 946.5px 946.5px */
+     } 
+     .main .text{
+        height: 570px;
+        background-size: cover;
+        width: auto;
+    
+        background-image: url(Images/fujin-pro-b-950x580-desktop.webp);
+        color: #fff;
+        text-align: center;
+        padding-top: 15px;
+        background-size: cover;
+        
+   
+        
+       
+    }
+    .main .text h1{
+        padding-top: 5px;
+        font-size: 40px;
+        font-weight: 300
+    
+    
+    }
+    .main .text p{
+        padding-top: 10px;
+        font-size: 20px;
+        font-weight: 100;
+    
+    
+    }
+    .main .text a {
+        color: #fff;
+        text-decoration: none;
+        
+    }
+    
+
+   
+
+    
+   
+
+   
+}
+@media screen and (min-width: 600px){
+    .main{
+        grid-template-columns: repeat(2,1fr);
+        width: auto;
+        
+        
+     }
+} 
+@media screen and (max-width: 710px) {
+    
+    .container1 .text h1{
+        font-size: 40px;
+        padding-top: 40px;
+        font-weight: 200;
+    }
+    .container1 .text p{
+        padding-top: 15px;
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .container1 .text a{
+        padding-top: 20px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+            
+    }
+    .container2 .text h1{
+        font-size: 40px;
+        padding-top: 40px;
+        font-weight: 200;
+    }
+    .container2 .text p{
+        padding-top: 15px;
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .container2 .text a{
+        padding-top: 20px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+            
+    }
+    .container3 .text h1{
+        font-size: 40px;
+        padding-top: 40px;
+        font-weight: 200;
+    }
+    .container3 .text p{
+        padding-top: 15px;
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .container3 .text a{
+        padding-top: 20px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+            
+    }
+    
+    .component{
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        width: auto;
+        margin: 0px auto;
+        padding-top: 10px;
+      
+        
+    }
+
+    
+
+    
+   
+
+
+}
+
+@media screen and (max-width: 1920px) {
+   
+    .notification p{
+        color: #fff;
+        font-size: 12px;
+        margin: 0px auto;
+        padding-bottom: 11.5px;
+        padding-top: 3.5px;
+        text-align: center;
+        
+        
+        
+    
+    }
+    header .header{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        margin: auto;
+        
+        
+        background-color: black;
+    }
+    
+
+    
+    
+   
+ 
+}
+
